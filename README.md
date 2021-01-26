@@ -1,17 +1,17 @@
-# stringtonumber
+# stringstonumbers
 
-`stringtonumber` is a very simple `npm` package that converts any string input into a number and back. It was created to be used with the scratch-api module for transferring data over scratch cloud servers.
+`stringstonumbersr` is a very simple `npm` package that converts any string input into a number and back. It was created to be used with the scratch-api module for transferring data over scratch cloud servers.
 
 ## How to use
 
 ### Install
 
-`npm install stringtonumber`
+`npm install stringstonumbers`
 
 ### Importing
 
 ```javascript
-const strToNum = require('stringtonumber');
+const strToNum = require('stringstonumbers');
 ```
 
 ### Encoding
