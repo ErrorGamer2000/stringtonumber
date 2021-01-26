@@ -1,6 +1,6 @@
 # stringstonumbers
 
-`stringstonumbersr` is a very simple `npm` package that converts any string input into a number and back. It was created to be used with the scratch-api module for transferring data over scratch cloud servers.
+`stringstonumbers` is a very simple `npm` package that converts any string input into a number and back. It was created to be used with the scratch-api module for transferring data over scratch cloud servers.
 
 ## How to use
 
