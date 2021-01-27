@@ -15,7 +15,7 @@ var encode = (str) => {
 
 var decode = (num) => {
   var toReturn = "";
-  for (var i = 0; Number(num[i].toString() + num[i + 1].toString()) != 0; i += 2) {
+  for (var i = 0; Number(num[i].toString() + num[i + 1].toString()) > 0; i += 2) {
 	  toReturn += arr[Number(num[i].toString() + num[i + 1].toString())-1]
   }
   return toReturn;
