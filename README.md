@@ -4,16 +4,22 @@
 
 ## How to use
 
-### Install
+### With npm
 
 `npm install stringstonumbers`
 
-### Importing
+#### Importing
 
 ```javascript
 const strToNum = require('stringstonumbers');
 ```
 
+### HTML
+###### Want to use the script in the browser? No problem! Just import the script!
+
+```html
+<script type="text/javascript" src="https://raw.githubusercontent.com/ErrorGamer2000/stringstonumbers/main/browser.js"></script>
+```
 ### Encoding
 
 ```javascript
