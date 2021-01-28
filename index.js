@@ -4,7 +4,7 @@ var encode = (str) => {
   var toReturn = "";
   for (var i = 0; i < str.length; i++) {
     if (arr.indexOf(str[i]).toString().length == 1) {
-      toReturn += '0' + arr.indexOf(str[i]).toString(); 
+      toReturn += '0' + (arr.indexOf(str[i]) + 1).toString();
     } else {
       toReturn += (arr.indexOf(str[i]) + 1).toString();
     }
