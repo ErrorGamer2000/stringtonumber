@@ -1,6 +1,6 @@
 {
   "name": "stringstonumbers",
-  "version": "1.1.1",
+  "version": "1.1.4",
   "description": "Converts any string input into a number and back. Created to be used with the scratch-api module for transferring data over scratch cloud servers.",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ErrorGamer2000/string-to-number.git"
+    "url": "git+https://github.com/ErrorGamer2000/stringstonumbers.git"
   },
   "author": "ErrorGamer2000",
   "license": "GNU",
   "bugs": {
-    "url": "https://github.com/ErrorGamer2000/string-to-number/issues"
+    "url": "https://github.com/ErrorGamer2000/stringstonumbers/issues"
   },
-  "homepage": "https://github.com/ErrorGamer2000/string-to-number#readme"
+  "homepage": "https://github.com/ErrorGamer2000/stringstonumbers#readme"
 }
