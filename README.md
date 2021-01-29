@@ -18,7 +18,7 @@ const strToNum = require('stringstonumbers');
 ###### Want to use the script in the browser? No problem! Just import the script!
 
 ```html
-<script type="text/javascript" src="https://raw.githubusercontent.com/ErrorGamer2000/stringstonumbers/main/browser.js"></script>
+<script type="application/javascript" src="https://cdn.jsdelivr.net/gh/ErrorGamer2000/stringstonumbers/browser.js"></script>
 ```
 ### Encoding
 
