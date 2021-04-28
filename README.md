@@ -18,7 +18,7 @@ const strToNum = require('stringstonumbers');
 ###### Want to use the script in the browser? No problem! Just import the script!
 
 ```html
-<script type="application/javascript" src="https://cdn.jsdelivr.net/gh/ErrorGamer2000/stringstonumbers/browser.js"></script>
+<script type="application/javascript" src="https://cdn.jsdelivr.net/gh/ErrorGamer2000/stringstonumbers/index.js"></script>
 ```
 ### Encoding
 
@@ -32,11 +32,4 @@ strToNum.encode('Hello World!')
 ```javascript
 strToNum.decode('07303737409122404337296200')
 // returns "Hello World!"
-```
-
-### Custom Key
-
-```javascript
-// sets a custom encode/decode key. must be array with a length less than 100.
-strToNum.setKey(['A','B','...'])
 ```
