@@ -1,6 +1,6 @@
 {
   "name": "stringstonumbers",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Converts any string input into a number and back. Created to be used with the scratch-api module for transferring data over scratch cloud servers.",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/ErrorGamer2000/stringstonumbers/issues"
   },
-  "homepage": "https://github.com/ErrorGamer2000/stringstonumbers#readme"
+  "homepage": "https://github.com/ErrorGamer2000/stringstonumbers#readme",
+  "keywords": [
+    "scratch",
+    "strings",
+    "numbers",
+    "string",
+    "number",
+    "cloud",
+    "scratch-api",
+    "server"
+  ]
 }
