@@ -12,7 +12,7 @@
 		encode: function (s) {
 			let r = "";
 			for (let l of s) {
-				r += (chars.indexOf(l) + 1) < 10 ? `0${chars.indexOf(l)}` : `${chars.indexOf(l)}`;
+				r += (chars.indexOf(l) + 1) < 10 ? `0${chars.indexOf(l) + 1}` : `${chars.indexOf(l) + 1}`;
 			}
 			return `${r}00`;
 		},
@@ -24,7 +24,7 @@
           r.__proto__.input = t.filter((p, i) => i <= c).join("");
           return r;
         }
-        r += chars[t[c]];
+        r += chars[t[c] - 1];
       }
       r.__proto__.input = n;
       return r;
