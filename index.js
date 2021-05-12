@@ -16,17 +16,16 @@
 			}
 			return `${r}00`;
 		},
-		decode: function(n) {
+		decode: function(n, l = 0, o = false) {
 			let r = "";
-			let t = n.match(/[^][^]?/g);
+      l = o && l > 0 ? l - 1 : l;
+			let t = n.slice(l).match(/[^][^]?/g);
       for (let c in t) {
         if (t[c] === "00") {
-          r.__proto__.input = t.filter((p, i) => i <= c).join("");
           return r;
         }
         r += chars[t[c] - 1];
       }
-      r.__proto__.input = n;
       return r;
 		}
 	}
