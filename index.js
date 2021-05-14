@@ -11,7 +11,7 @@
     let exports = {};
     exports.encode = function (s) {
         let r = "";
-        for (let l of s) {
+        for (let l of String(s)) {
             r += chars.indexOf(l) + 1 < 10 ? `0${chars.indexOf(l) + 1}` : `${chars.indexOf(l) + 1}`;
         }
         return `${r}00`;
@@ -19,7 +19,7 @@
     exports.decode = function (n, l = 0, o = false) {
         let r = "";
         l = o && l > 0 ? l - 1 : l;
-        let t = n.slice(l).match(/[^][^]?/g);
+        let t = String(n).slice(l).match(/[^][^]?/g);
         for (let c in t) {
             if (t[c] === "00") {
                 return r;
