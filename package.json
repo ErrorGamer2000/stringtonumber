@@ -1,6 +1,6 @@
 {
   "name": "stringstonumbers",
-  "version": "5.0.1",
+  "version": "5.0.3",
   "description": "Converts any string input into a number and back. Created to be used with the scratch-api module for transferring data over scratch cloud servers.",
   "main": "node/index.js",
   "browser": "browser.js",

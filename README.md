@@ -23,7 +23,7 @@ const strToNum = require("stringstonumbers");
 ```html
 <script
   type="application/javascript"
-  src="https://cdn.jsdelivr.net/gh/ErrorGamer2000/stringstonumbers/dist/browser.js"
+  src="https://cdn.jsdelivr.net/npm/stringstonumbers@5/dist/browser.js"
 ></script>
 ```
 
