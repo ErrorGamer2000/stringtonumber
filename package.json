@@ -1,10 +1,13 @@
 {
   "name": "stringstonumbers",
-  "version": "3.2.0",
+  "version": "5.0.1",
   "description": "Converts any string input into a number and back. Created to be used with the scratch-api module for transferring data over scratch cloud servers.",
-  "main": "index.js",
+  "main": "node/index.js",
+  "browser": "browser.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ts": "tsc",
+    "webpack": "npx webpack",
+    "build": "npm run ts && npm run webpack"
   },
   "repository": {
     "type": "git",
@@ -25,5 +28,10 @@
     "cloud",
     "scratch-api",
     "server"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  }
 }
